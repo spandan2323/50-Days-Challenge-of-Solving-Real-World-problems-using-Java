@@ -6,7 +6,7 @@ class CountNumbers implements Runnable{
     synchronized public void run() {
         try{
             System.out.println("You Stop Untill 25 " + Thread.currentThread().getName()+ " is On");
-            for(int i=0;i<=5;i++){
+            for(int i=0;i<=25;i++){
                 System.out.println(i);
                 Thread.sleep(1000);
             }
@@ -36,3 +36,4 @@ public class Traffic {
     // t2.start();
     }    
 }
+
